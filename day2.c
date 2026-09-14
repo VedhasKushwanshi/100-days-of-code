@@ -43,15 +43,16 @@ Area=28.27, Circumference=18.85
 #include <stdio.h>
 
 int main() {
-    int length, breadth;
-    int area, perimeter;
+    float r, area, circumference;
+    float pi = 3.14159;
 
-    scanf("%d %d", &length, &breadth);
+    scanf("%f", &r);
 
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
+    area = pi * r * r;
+    circumference = 2 * pi * r;
 
-    printf("Area=%d, Perimeter=%d", area, perimeter);
+    printf("Area: %.2f\n", area);
+    printf("Circumference: %.2f", circumference);
 
     return 0;
 }

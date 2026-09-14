@@ -44,7 +44,7 @@ Area=28.27, Circumference=18.85
 
 int main() {
     float r, area, circumference;
-    float pi = 3.14159;
+    float pi = 3.14;
 
     scanf("%f", &r);
 
